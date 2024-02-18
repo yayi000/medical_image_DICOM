@@ -1,0 +1,70 @@
+{
+  "name": "medical_image_ai",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@topology/activity-diagram": "^0.2.24",
+    "@topology/chart-diagram": "^0.3.0",
+    "@topology/class-diagram": "^0.2.24",
+    "@topology/core": "^0.3.1",
+    "@topology/flow-diagram": "^0.2.24",
+    "@topology/layout": "^0.3.0",
+    "@topology/sequence-diagram": "^0.2.24",
+    "antd": "^3.26.7",
+    "axios": "^1.5.0",
+    "base64-img": "^1.0.4",
+    "canvas": "^2.11.2",
+    "cornerstone-core": "^2.6.1",
+    "cornerstone-file-image-loader": "^0.3.0",
+    "cornerstone-tools": "^6.0.10",
+    "cornerstone-wado-image-loader": "^4.13.2",
+    "cornerstone-web-image-loader": "^2.1.1",
+    "cors": "^2.8.5",
+    "dcmjs": "^0.29.10",
+    "dcmjs-imaging": "^0.1.18",
+    "dicom-parser": "^1.8.21",
+    "i": "^0.3.7",
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "jimp": "^0.22.10",
+    "jpeg-js": "^0.4.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nifti-reader-js": "^0.6.6",
+    "pngjs": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-konva": "^18.2.10",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "sharp": "^0.32.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

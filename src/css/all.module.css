@@ -1,0 +1,35 @@
+.upload {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.upload>button,
+.tools>button {
+    background-color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+.info p{
+   margin: 3px;
+}
+
+.label {
+    display: flex;
+    margin: 10px;
+}
+
+.tools {
+    margin-left: 200px;
+}
+
+.list>div{
+    padding:5px;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+}
